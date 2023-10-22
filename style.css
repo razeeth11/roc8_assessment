@@ -1,0 +1,276 @@
+body {
+  padding: 5px;
+  margin: 0;
+  background: #e8e8e8;
+  font-family: "Poppins", sans-serif;
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+.side-list {
+  display: flex;
+  flex-direction: column;
+  float: left;
+  width: 242px;
+  border-radius: 5px;
+  height: 981px;
+  background: #051d36;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+a:focus,
+a:hover {
+  background: rgb(5 150 105);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 24px;
+  font-weight: 700;
+  color: rgb(5 150 105);
+  padding: 20px;
+  border-bottom: 1px solid rgba(144, 238, 144, 0.351);
+  margin: 0%;
+}
+
+.search-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+  padding: 16px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.search-div input {
+  border: none;
+  background: #f3f4f6;
+  width: 40%;
+  padding: 10px;
+  font-size: 14px;
+  margin-left: 20px;
+  border-radius: 50px;
+  color: #6b7280;
+}
+
+.list-div {
+  display: flex;
+  align-items: center;
+  background: lightgray;
+  border-radius: 10px;
+}
+
+.view {
+  padding: 5px 10px;
+  border-radius: 10px;
+  background: lightgrey;
+  cursor: pointer;
+}
+
+.list {
+  background: black;
+  color: white;
+}
+
+.container {
+  margin: 0px 10px 0 260px;
+}
+
+.latest-task {
+  background: rgb(30, 30, 30);
+  padding: 15px;
+  border-radius: 12px;
+  margin-top: 40px;
+}
+
+.head {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.head-button {
+  background: #059669;
+  padding: 10px 20px;
+  border: none;
+  font-size: 14px;
+  color: white;
+  border-radius: 5px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.head-title {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.head-title h1 {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.head-title p {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+table {
+  width: 100%;
+  text-align: left;
+  font-size: 14px;
+  border-collapse: collapse;
+  padding: 10px;
+  margin-top: 20px;
+  font-weight: 500;
+  color: #6b7280;
+}
+
+tr:nth-child(even) {
+  background: #f9fafb;
+}
+
+tr {
+  border-bottom: 1px solid #e5e7eb;
+}
+
+tr:nth-child(odd) {
+  background: white;
+}
+
+td {
+  padding: 15px;
+}
+
+th {
+  padding: 15px;
+  background: #1e364f;
+  color: white;
+}
+
+input.check {
+  width: 16px;
+  height: 16px;
+}
+
+.edit {
+  font-weight: 700;
+  color: #059669;
+  cursor: pointer;
+}
+
+.projects {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.Project {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 15px;
+  padding-left: 30px;
+  background-color: white;
+  width: 50%;
+  border-radius: 10px;
+}
+
+.project-two {
+  border-radius: 8px;
+background: linear-gradient(180deg, #16A34A 0%, #15803D 100%);
+box-shadow: 0px 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+.project-two p {
+  color: white;
+}
+
+.Project h2 {
+  font-size: 24px;
+  font-weight: 900;
+  margin: 5px;
+}
+
+.pro-deploy {
+  padding: 10px;
+  background: lightpink;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.pro-deploy1 {
+  padding: 10px;
+  background: #BBF7D0;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 5px;
+  margin-right: 10px;
+  color: #000;
+  
+}
+
+.failed1{
+  background-color: #BBF7D0
+}
+
+.failed {
+  background-color: rgba(255, 166, 0, 0.341);
+}
+
+.code-qua {
+  color: grey;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.time {
+  color: grey;
+  font-size: 16px;
+}
+
+.comments1,
+.comments2 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.comments1 p,
+.comments2 p {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 16px;
+}
